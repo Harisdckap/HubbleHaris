@@ -1,0 +1,314 @@
+button {
+    margin-left: 70%;
+    height: 45px;
+    width: 109px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+
+}
+
+ body{
+  width: 100%;
+  margin: 0px;
+  border: 3px solid;
+
+} 
+/* #header{
+    background-image: url(bg-hero-desktop.svg);
+} */
+
+.btn {
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.mid.section {
+    display: flex;
+    width:100%;
+    background-image: url(bg-hero-desktop.svg);
+}
+
+img.ma1 {
+    width: 100%;
+}
+
+.words {
+    margin: 5%;
+   
+}
+
+
+button.btt {
+    margin: auto;
+    height: 27%;
+    width: 40%;
+    background-color: hsl(322, 100%, 66%);
+    cursor: pointer;
+}
+.para {
+    width: 100%;
+}
+
+
+img.grow {
+    width: 60%;
+    display: flex;
+    padding: -7%;
+    position: relative;
+    left: 15%;
+    
+}
+
+.mid-section-1{
+    width: 54%;
+    height: 50%;
+    padding: 5%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+    margin: auto;
+    margin-top: 5%;
+   display: flex;
+}
+
+img.main {
+    width: 55%;
+   margin: auto;
+
+
+}
+
+.mid-section-2 {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+    margin-top: 10%;
+    width: 65%;
+    height: 367px;
+    justify-content: center;
+    align-items: center;
+   margin: auto;
+    margin-top: 10%;
+}
+
+img.start {
+    width: 65%;
+}
+
+
+
+.mid-section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+    width: 65%;
+    /* margin-top: 10%; */
+    margin: auto;
+    padding-top: 0%;
+    margin-top: 10%;
+}
+
+
+
+.threads {
+    margin: 9%;
+}
+
+.builds {
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 4%;
+    margin-bottom: -5%;
+    margin-left: 30%;
+}
+
+button.free {
+   background-color: hsl(322, 100%, 66%);
+    margin: auto;
+    width: 60%;
+}
+
+/* .footer{
+
+color: azure;
+
+} */
+
+.foot-section {
+   background-color: rgb(5, 30, 75);
+    height: auto;
+    /* margin: 5%; */
+  
+    color:  hsl(193, 100%, 96%);
+    font-family: 'Open Sans', sans-serif;
+    padding: 5%;
+    width: 90%;
+}
+
+.dolor {
+    width: 30%;
+    height: 24%;
+    top: 30px;
+    margin-top: 5%;
+}
+.dolor2 {
+    margin-top: 3%;
+}
+.dolor1{
+margin-top: 3%;
+}
+
+
+.totald {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    margin-top: -10%;
+}
+
+.dolor3 {
+
+    position: relative;
+    left: -5%;
+}
+
+
+img.icon {
+ 
+    padding-left: 25px;
+}
+
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+ 
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(208, 11%, 55%);
+  
+   
+}
+
+
+
+.Icons1 {
+    margin-top: -8%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+img.logosvg{
+    /* filter: grayscale(200%); */
+    /* filter: contrast(100%); */
+    filter: hue-rotate(525deg)
+}
+
+
+@media(max-width:600px){
+    
+    
+    img {
+        width: 40%;
+      }
+
+      .mid.section {
+        
+    
+        display: grid;
+      }
+
+      img.ma1 {
+        margin-top: 7%;
+      }
+
+      .mid-section-1 {
+        width: 84%;
+        justify-content: center;
+        flex-direction: column-reverse;
+      }
+
+   
+    
+    .mid-section-2 {
+      width: 94%;
+      height: 307px;
+      flex-direction: column-reverse;
+    
+    }
+
+.mid-section-3{
+    width: 94%;
+    flex-direction: column-reverse;
+}
+
+.builds {
+    margin-top: 5%;
+    padding: 2%;  
+    margin-left: 8%;
+    width: 77%;
+  }
+
+  button.btt {
+ 
+    height: 27%;
+    width: 40%;
+    cursor: pointer;
+    margin: auto;
+    justify-content: center;
+    display: block;
+  }
+
+  .mid-section-2 {
+    width: 96%;
+    height: 375px;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    text-align: center;
+  
+}
+
+img.start {
+    width: 65%;
+    display: flex;
+    margin: auto;
+
+}
+
+
+
+.totald {
+    display: table-row;
+  }
+
+  img.icon {
+    padding-left: 15%;
+    width: 6%;
+  }
+
+  .Icons1 {
+    margin-top: 0px;
+  }
+
+  .totally {
+    display: block;
+    left: 0%;
+  }
+  .foot-section{
+    padding: 10% 10%;
+    width: 80%;
+  }
+
+}
+
